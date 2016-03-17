@@ -21,11 +21,6 @@ public class WhenYouCreateACell {
         assertThat(cell, is(DEAD_CELL));
     }
     
-    @Test
-    public void aDeadCellShouldBeRepresentedByADot2() {
-        Cell cell = Cell.fromSymbol(".");
-        assertThat(cell, is(DEAD_CELL));
-    }
 
     @Test
     public void aLiveCellShouldBePrintedAsAnAsterisk() {
